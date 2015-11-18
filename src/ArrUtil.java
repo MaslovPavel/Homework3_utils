@@ -32,6 +32,7 @@ public class ArrUtil {
                 }
             }
         }
+
         for (int i = 0; i < tempArr2.length; i++) {
             for (int j = 0; j < tempArr2.length - i - 1; j++) {
                 if (tempArr2[j] > tempArr2[j + 1]) {
@@ -41,6 +42,7 @@ public class ArrUtil {
                 }
             }
         }
+
         for (int i = 0; i < tempArr1.length && i < tempArr2.length; i++){
             if (tempArr1[i] != tempArr2[i]){
                 return false;
